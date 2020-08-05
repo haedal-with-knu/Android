@@ -160,3 +160,19 @@ Fragment1, Fragment2 객체를 생성해주고, 처음에는 `fragment_container
 ```java
 getSupportFragmentManager().beginTransaction().replace(R.id.container, fragmentB).addToBackStack(null).commit();
 ```
+
+### 프래그먼트 내에서 findViewById() 사용하기
+
+```java
+
+public class Fragment1 extends Fragment {
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment1, container, false);
+        Button button = (Button) rootView.findViewById(R.id.button1);
+
+    ...
+
+    return rootView;
+}
+```
