@@ -17,7 +17,7 @@
 제약 레이아웃은 뷰의 크기와 위치를 결정할 때 제약 조건(Constraint)을 사용한다. 제약 조건이란 뷰가 레이아웃 안의 다른 요소와 어떻게 연결되는지 알려주는 것으로, 다른 요소들과 연결선을 통하여 만들 수 있다.
 
 activity_main.xml 파일에서 ConstraintLayout에 Button을 추가한 직후, 다음과 같은 메세지를 볼 수 있다.
-![error](./img/2_constraint.png)
+![error](img/2_constraint.png)
 
 제약 조건을 설정하지 않는다면, 앱 실행 시에 (0,0)의 위치로 이동이 된다고 한다. 실제로 앱을 실행시 다음과 같이 버튼의 위치가 이동한 것을 볼 수 있다.
 
@@ -25,7 +25,7 @@ activity_main.xml 파일에서 ConstraintLayout에 Button을 추가한 직후, �
 
 제약 레이아웃에서는 뷰의 위치를 결정할수 있을 만큼의 연결선이 필요하다. 예를 들어, 버튼의 왼쪽만 부모 레이아웃에 연결하게 되면, 위아래의 위치를 결정할 수 없기 때문에, 경고메세지가 뜨게 된다. 뷰의 위치를 결정해주기 위해서 다음과 같이 설정해주면 된다.
 
-![3](./img/2_3.PNG)
+![3](img/2_3.PNG)
 
 두개의 버튼을 추가하고, Button1의 모든 가로축과 세로축을 부모 레이아웃과 연결해줘서 화면 중앙에 배치하였고, Button2의 위쪽과 왼쪽을 부모레이아웃과 연결해주고, 마진을 50dp로 설정해줘서 화면 왼쪽 상단에 위치한 것을 확인할 수 있다.
 
@@ -51,9 +51,9 @@ activity_main.xml 파일에서 ConstraintLayout에 Button을 추가한 직후, �
 
 리니어 레이아웃에 3개의 버튼을 추가한 후 `orientation` 속성을 `horizontal`, `vertical`로 변경했을때 다음과 같이 된다. 
 
-![linear_horizontal](./img/linear_horizontal.PNG)
+![linear_horizontal](img/linear_horizontal.PNG)
 
-![linear_vertical](./img/linear_vertical.PNG)
+![linear_vertical](img/linear_vertical.PNG)
 
 #### 뷰 정렬하기
 리니어 레이아웃에서 뷰를 정렬하기 위해서 `gravity` 또는 `layout_gravity`속성을 사용할 수 있다.
@@ -62,7 +62,7 @@ activity_main.xml 파일에서 ConstraintLayout에 Button을 추가한 직후, �
 - `layout_gravity` : 부모 컨테이너의 여유공간 내에서 뷰 정렬
 
 
-![gravity](./img/gravity.PNG)
+![gravity](img/gravity.PNG)
 
 
 
@@ -102,7 +102,7 @@ activity_main.xml 파일에서 ConstraintLayout에 Button을 추가한 직후, �
 TableLayout에 TableRow의 개수가 행의 개수가 되고, 각 TableRow에 들어있는 뷰의 개수가 열의 개수가 된다. 
 
 
-![](./img/table_row.png)
+![](img/table_row.png)
 
 위의 그림은 TableLayout을 추가한 후, 세개의 TableRow에 버튼을 각각 두개씩 추가하여 3행 2열의 레이아웃을 구성하였다.
 

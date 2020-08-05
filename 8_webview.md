@@ -103,4 +103,4 @@ public class MainActivity extends AppCompatActivity {
 
 ### 완성
 
-![](./img/8_1.PNG)
+![](img/8_1.PNG)

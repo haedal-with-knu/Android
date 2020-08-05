@@ -4,7 +4,7 @@
 
 > 태블릿에서 앱을 실행하는 경우, 앱 내의 액티비티A 안에 두개의 포함할 수 있습니다. 그러나 일반 스마트폰의 화면은 두 프래그먼트를 모두 쓸 만큼 공간이 충분하지 않기 때문에, 액티비티 A에는 기사목록에 해당되는 프래그먼트만 포함되고, 사용자가 기사를 하나 선택하면 액티비티 B가 시작됩니다. [출처-안드로이드 공식문서](https://developer.android.com/guide/components/fragments#Design)
 
-![fragment](./img/5_fragments.png) 
+![fragment](img/5_fragments.png) 
 
 ### 프래그먼트 화면에 추가하기
 
@@ -13,7 +13,7 @@
 
 프래그먼트를 두개 추가해서 화면을 전환하는 예제.
 
-![](./img/5_2.png)
+![](img/5_2.png)
 우선, `App` 에서 오른쪽 클릭 후 `New`->`Fragment`->`Fragment(Blank)`를 선택한 다음, `Fragment1`, `Fragment2`를 추가해준다.
 
 
@@ -76,7 +76,7 @@ public class Fragment2 extends Fragment {
 
 ```
 
-![](./img/5_4.PNG)
+![](img/5_4.PNG)
 
 <br>
 
@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
 Fragment1, Fragment2 객체를 생성해주고, 처음에는 `fragment_container`에 `fragment1`을 보여준다.
 그다음 버튼 onClickListener를 통해 버튼을 눌렀을때 다른 `fragment`로 바뀌게 만들어준다.
 
-![](./img/5_5.png)
+![](img/5_5.png)
 
 <br><br>
 

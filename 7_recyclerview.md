@@ -5,7 +5,7 @@
 휴대폰을 사용하다 보면, 메일함이나 배달앱, 플레이스토어 등등 여러 항목들을 **리스트** 형태로 나열한 화면의 앱들을 많이 볼수있다. 터치를 이용하는 모바일 기기의 특성 상 사용자가 쉽고 직관적으로 여러 항목을 보고 선택해야 하기 때문이다.
 
  
-![7_1](./img/7_1.png)
+![7_1](img/7_1.png)
 
 위와 같은 리스트 화면을 구성할 때, 예전에는 `ListView`를 많이 사용하였으나, `ListView`의 대부분의 기능들을 `RecyclerView`로 할 수 있고, 좀 더 유연한 레이아웃을 구성할수 있기때문에, `RecyclerVIew`를 많이 사용한다.
 
@@ -99,7 +99,7 @@ public class Student {
 </LinearLayout>
 ```
 
-![레이아웃](./img/7_2.PNG)
+![레이아웃](img/7_2.PNG)
 
 
 그다음에 `StudentAdapter.java` 파일을 생성해주고, 먼저 ViewHolder 클래스를 static으로 정의해준다.
@@ -142,7 +142,7 @@ ViewHolder 클래스를 생성해주고, `findviewById()` 메소드를 통해 �
 코드를 작성하고나면 `public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHolder>` 부분에서 에러가 나는것을 확인할 수 있다.
 코드 위에서 `Alt` + `Enter`를 누르고 `Implement method`를 선택해준다.
 
-![](./img/7_3.PNG) 
+![](img/7_3.PNG) 
 
 그림과 같은 화면이 나타나면 세개 다 선택 후에 OK버튼을 눌러주면 된다.
 
@@ -230,4 +230,4 @@ public class MainActivity extends AppCompatActivity {
 
 ### 완성
 
-![](./img/7_4.PNG)
+![](img/7_4.PNG)
