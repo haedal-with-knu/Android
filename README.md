@@ -18,5 +18,5 @@
 #### [1. 메모장 앱 만들기](https://github.com/swff07183/MemoApp)
 
 ## 파이어베이스(Firebase)
-#### [1. 안드로이드 앱에 파이어베이스(Firebase) 연결하기](Firebase/1_firebase.md)
-#### [2. 파이어베이스를 이용하여 로그인, 회원가입 구현하기](./)
+#### [1. 안드로이드 앱에 파이어베이스(Firebase) 연결하기](./Firebase/1_firebase.md)
+#### [2. 파이어베이스를 이용하여 로그인, 회원가입 구현하기](./Firebase/2_auth.md)
