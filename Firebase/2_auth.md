@@ -15,7 +15,7 @@ Authentication -> Sign-in method 에서 로그인 제공업체를 설정해줄�
 
 화면을 다음과 같이 구성해준다.
 
-![](./img/2_auth/3.png)
+![](./img/2_auth/3.PNG)
 
 다음 **LoginActivity.java** 파일과 **SignupActivity.java**파일을 수정해준다.
 
@@ -115,7 +115,7 @@ public class SignupActivity extends AppCompatActivity {
 
 다음 Firebase 홈페이지에서 Authentication -> Users 화면에 들어가면 사용자 목록에 추가된 것을 확인할 수 있다.
 
-![](./img/2_auth/5.png)
+![](./img/2_auth/5.PNG)
 
 
 그다음 로그인을 확인하면 띄울 MainActivity를 만들어주고, 로그아웃 버튼을 만들어준다.
