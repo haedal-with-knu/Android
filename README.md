@@ -29,4 +29,5 @@
 
 #### [1. 메모장 앱 만들기](https://github.com/swff07183/MemoApp)
 #### [2. 메신저 앱 만들기](https://github.com/swff07183/ChatApp)
+- [회원가입 화면 만둘기](ChatApp/1_SignupActivity.md)
 - [로그인 화면 만둘기](ChatApp/2_LoginActivity.md)
