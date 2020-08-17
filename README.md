@@ -13,10 +13,20 @@
 * [리싸이클러뷰(RecyclerView)](7_recyclerview.md)
 * [스레드(Thread)와 핸들러(Handler)](./9.md)
 
-## 간단한 앱 만들어보기
+## 안드로이드 스튜디오 이것저것
 
-#### [1. 메모장 앱 만들기](https://github.com/swff07183/MemoApp)
+* [AlertDialog 이용하여 입력창 띄우기](./etc/alertdialog.md)
+
+
 
 ## 파이어베이스(Firebase)
 #### [1. 안드로이드 앱에 파이어베이스(Firebase) 연결하기](./Firebase/1_firebase.md)
 #### [2. 파이어베이스를 이용하여 로그인, 회원가입 구현하기](./Firebase/2_auth.md)
+
+
+
+## 간단한 앱 만들어보기
+
+#### [1. 메모장 앱 만들기](https://github.com/swff07183/MemoApp)
+#### [2. 메신저 앱 만들기](https://github.com/swff07183/ChatApp)
+- [로그인 화면 만둘기](ChatApp/2_LoginActivity.md)
